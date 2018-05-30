@@ -6,11 +6,15 @@ body{
 
 .cabecera{
   background: white;
-  max-height: 150px;
+  height: 150px;
 }
 
 .logo-img{
-  height: 90%;
+  height: 100%;
+}
+
+.redes-sociales{
+  margin-top: 100px;
 }
 
 .img-social{
@@ -20,4 +24,61 @@ body{
 
 .navegacion{
   height: 50px;
+}
+
+.contenedor{
+  background: #ffffff;
+}
+
+.contenido{
+  background: #f9f9f9;
+}
+
+.titulo-post{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cuerpo-post{
+
+}
+
+.imagen-post{
+
+}
+
+.img-post{
+  width: 95%;
+}
+
+.texto-post{
+  text-align: justify;
+}
+
+.comentario-post{
+
+}
+
+.imagen-comentario-post{
+
+}
+
+.img-comentario-post{
+  width: 60px;
+}
+
+.texto-comentario-post{
+
+}
+
+.buscador{
+  background-color: #dee8f9;
+}
+
+.busqueda{
+  height: 30px;
+}
+
+.img-buscar{
+  width: 30px;
 }
