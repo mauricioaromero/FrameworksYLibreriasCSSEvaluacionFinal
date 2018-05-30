@@ -10,10 +10,10 @@
   <body>
     <div class="container">
       <div class="row cabecera">
-        <div class="col-lg-6">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-12 logo">
           <img src="img/logo.png" alt="" class="logo-img">
         </div>
-        <div class="col-lg-6 text-right redes-sociales" style="width:320px;">
+        <div class="col-lg-10 col-md-6 text-right redes-sociales">
           <a href="#"> <img src="img/facebook.png" alt="" class="img-social"> </a>
           <a href="#"> <img src="img/twitter.png" alt="" class="img-social"> </a>
           <a href="#"> <img src="img/instagram.png" alt="" class="img-social"> </a>
@@ -29,33 +29,33 @@
               <li class="nav-item"> <a href="#" class="nav-link"> Inicio </a> </li>
               <li class="nav-item"> <a href="#" class="nav-link"> Artistas </a> </li>
               <li class="nav-item"> <a href="#" class="nav-link"> Grupos </a> </li>
-              <li class="nav-item"> <a href="#" class="nav-link"> Top 10 </a> </li>
+              <li class="nav-item"> <a href="#" class="nav-link"> Elegidos </a> </li>
               <li class="nav-item"> <a href="#" class="nav-link"> Letras </a> </li>
               <li class="nav-item"> <a href="#" class="nav-link"> Acordes </a> </li>
             </ul>
           </nav>
         </div>
       </div>
-      <div class="row contenedor">
-        <div class="col-lg-8 contenido">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12 contenido">
           <div class="row titulo-post">
             <div class="col text-center">
               U2
             </div>
           </div>
-          <div class="row cuerpo-post">
-            <div class="col-lg-4 imagen-post">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 imagen-post">
               <img class='img-post' src='img/u2.jpg'/>
             </div>
-            <div class="col-lg-8 texto-post">
+            <div class="col-lg-8 col-md-6 col-sm-12 col-12 texto-post">
               U2 es una banda de rock originaria de Dublín (Irlanda), formada en 1976 por Bono (voz), The Edge (guitarra, teclado y voz), Adam Clayton (bajo), y Larry Mullen Jr. (batería). El sonido inicial de U2 tenía sus raíces en el post-punk, pero posteriormente irán incorporando a su música elementos de otros géneros: "Su cancionero es extenso y está repleto de variaciones: desde el rock más clásico hasta el pop más redondo, pasando por el coqueteo con la electrónica o los homenajes al góspel".
             </div>
           </div>
-          <div class="row comentario-post">
-            <div class="col-lg-1 imagen-comentario-post">
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-2 col-2 imagen-comentario-post">
               <img class='img-comentario-post' src='img/comentario.png'/>
             </div>
-            <div class="col-lg-11 texto-comentario-post">
+            <div class="col-lg-11 col-md-11 col-sm-10 col-10">
               <form role="form">
                 <div class="form-group">
                   <textarea name="textcomentario" class="form-control" ></textarea>
@@ -68,19 +68,19 @@
               Queen
             </div>
           </div>
-          <div class="row cuerpo-post">
-            <div class="col imagen-post order-2">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 imagen-post order-2">
               <img class='img-post' src='img/queen.jpg'/>
             </div>
-            <div class="col texto-post order-1">
+            <div class="col-lg-8 col-md-6 col-sm-12 col-12 texto-post">
               Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún es considerada activa.
             </div>
           </div>
-          <div class="row comentario-post">
-            <div class="col-lg-1 imagen-comentario-post">
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-2 col-2 imagen-comentario-post">
               <img class='img-comentario-post' src='img/comentario.png'/>
             </div>
-            <div class="col-lg-11 texto-comentario-post">
+            <div class="col-lg-11 col-md-11 col-sm-10 col-10">
               <form role="form">
                 <div class="form-group">
                   <textarea name="textcomentario" class="form-control"></textarea>
@@ -89,11 +89,13 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 buscador">
-          <div class="row busqueda">
-            <div class="col text-center">
-              <img class="img-buscar" src="img/buscar.png" alt="">
-              <input type="text" placeholder="Buscar">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 buscador">
+          <div class="row">
+            <div class="col">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img class="img-buscar" src="img/buscar.png" alt=""></button>
+              </form>
             </div>
           </div>
           <div class="row">
@@ -116,8 +118,6 @@
           </div>
         </div>
       </div>
-
     </div>
-
   </body>
 </html>
