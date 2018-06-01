@@ -1,0 +1,58 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: white;
+}
+
+div{
+  color: white;
+}
+
+blockquote{
+  font-weight: bold;
+  color: black;
+}
+
+.menu li{
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+li{
+  font-weight: bold;
+}
+
+i{
+  font-size: 25px;
+}
+
+.img-user{
+  max-width: 50px;
+}
+
+.callout{
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.img-comentario{
+  border-radius: 10px;
+}
+
+.comentario-usuario{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.comentario-texto{
+  font-size: 16px;
+  font-style: italic;
+}
+
+.comentario-fecha-publicacion{
+  font-size: 10px;
+
+}
