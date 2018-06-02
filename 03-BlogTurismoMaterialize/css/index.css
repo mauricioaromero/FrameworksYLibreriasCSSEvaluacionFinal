@@ -1,0 +1,38 @@
+.logo{
+  width: 90px;
+  margin-top: 0.5rem;
+  margin-left: 0.9rem;
+  float: left;
+}
+
+.barra-superior .row{
+  margin-bottom: 0;
+}
+
+.slogan-columna{
+  height: 40px;
+}
+
+.slogan{
+  margin-left: 110px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.social-media{
+  width: 40px;
+}
+
+.img-izquierda, .img-centro, .img-derecha{
+  width: 100%;
+}
+
+.img-entradas{
+  border: 0.6rem solid #26a69a;
+  border-radius: 5px;
+}
+
+p{
+  font-style: italic;
+  text-align: justify;
+}
