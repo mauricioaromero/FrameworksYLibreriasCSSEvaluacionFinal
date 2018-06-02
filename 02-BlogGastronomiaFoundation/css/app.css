@@ -9,13 +9,17 @@ h1, h2, h3, h4, h5, h6{
   color: white;
 }
 
+h6{
+    font-style: italic;
+}
+
 div{
   color: white;
 }
 
 blockquote{
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .menu li{
