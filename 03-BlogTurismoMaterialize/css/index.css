@@ -36,3 +36,8 @@ p{
   font-style: italic;
   text-align: justify;
 }
+
+.fixed-action-btn{
+  top: -11px;
+  right: 2vw;
+}
